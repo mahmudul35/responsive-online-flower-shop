@@ -39,6 +39,7 @@
   line-height: 48px;
   letter-spacing: 0%;
   text-align: center;
+  margin-bottom: 20px;
 }
 .center {
   text-align: center;
@@ -222,6 +223,7 @@ header {
   justify-content: space-around;
   align-items: center;
   padding: 30px 190px;
+  margin-bottom: 120px;
 }
 .hot-deal-content {
   display: flex;
@@ -248,3 +250,19 @@ span {
 }
 
 /* hot deal section end here */
+
+/* Instagram section start here */
+.instagram-section {
+  width: 1440px;
+  margin: 0 auto;
+}
+.instagram-flower-container {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+/* .instagram-flower-container img {
+  width: 342px;
+} */
+
+/* Instagram section end here */
