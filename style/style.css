@@ -350,6 +350,22 @@ footer {
 
 /* Responsive for mobile devices */
 @media screen and (max-width: 576px) {
+  /* Hot deal section */
+  .hot-deal {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    margin-bottom: 60px;
+    padding: 15px;
+  }
+  .hot-deal-content {
+    width: 90%;
+  }
+  .hot-deal-content h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+
   /* instagram section */
   .instagram-section {
     width: 100%;
