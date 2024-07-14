@@ -343,3 +343,29 @@ footer {
   text-align: center;
   margin-top: 32px;
 }
+
+.hide {
+  display: none;
+}
+
+/* Responsive for mobile devices */
+@media screen and (max-width: 576px) {
+  /* latest deal section */
+  .latest-deal {
+    background-image: none;
+    background-color: antiquewhite;
+    align-items: flex-start;
+    padding: 15px;
+  }
+  .input-email {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+  }
+  .input-email button {
+    margin: 25px 0;
+  }
+  input {
+    width: 50%;
+  }
+}
