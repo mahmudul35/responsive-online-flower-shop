@@ -266,3 +266,40 @@ span {
 } */
 
 /* Instagram section end here */
+
+/* latest deal starts here */
+.latest-deal {
+  width: 1440px;
+  margin: 0 auto;
+  height: 450px;
+  background-image: url("../Flower Asset/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 128px;
+}
+.latest-deal p {
+  margin-bottom: 30px;
+}
+
+input {
+  width: 700px;
+  height: 64px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  border: none;
+  padding: 20px;
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+}
+.input-email button {
+  margin-left: 16px;
+}
+/* latest deal end here */
