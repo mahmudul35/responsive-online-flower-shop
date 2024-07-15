@@ -350,6 +350,34 @@ footer {
 
 /* Responsive for mobile devices */
 @media screen and (max-width: 576px) {
+  /* Feature flower */
+  .feature-flower {
+    width: 100%;
+  }
+  .flower-container {
+    flex-direction: column;
+    gap: 70px;
+  }
+  .flower-1,
+  .flower-2,
+  .flower-3 {
+    width: 90%;
+  }
+
+  .services {
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 60px;
+  }
+
+  .car {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
   /* Hot deal section */
   .hot-deal {
     width: 100%;
@@ -381,17 +409,18 @@ footer {
     background-color: antiquewhite;
     align-items: flex-start;
     padding: 15px;
+    width: 100%;
     margin-top: 60px;
   }
   .input-email {
     display: flex;
     flex-direction: column;
-    width: 55%;
+    width: 90%;
   }
   .input-email button {
     margin: 25px 0;
   }
   input {
-    width: 50%;
+    width: 100%;
   }
 }
